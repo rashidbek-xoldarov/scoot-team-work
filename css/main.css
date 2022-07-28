@@ -109,3 +109,25 @@ body {
 /* FIRST PPAGE STYLE YASHNARBEK*/
 
 /* SECOND PAGE STYLE RASHIDBEK*/
+/* TOP */
+.about-top {
+  background-image: url("../images/about-top-bg.jpg");
+  background-color: #2f3b59;
+  opacity: 0.75;
+  background-position: center;
+}
+
+.about-top__inner {
+  padding-top: 62px;
+  padding-bottom: 82px;
+}
+
+.about-top__title {
+  margin: 0;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
