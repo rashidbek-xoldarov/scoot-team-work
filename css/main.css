@@ -134,9 +134,6 @@ body {
 }
 
 /* ABOUT FEATURE */
-.about-feature {
-}
-
 .about-feature__inner {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -196,9 +193,6 @@ body {
   border-radius: 50%;
 }
 
-.img-feature-about--second {
-}
-
 .about-feature__info {
   position: relative;
   width: 445px;
@@ -242,5 +236,84 @@ body {
 }
 
 .about-feature__text {
+  margin: 0;
+}
+
+/* VALUE */
+.value-inner {
+  padding-bottom: 120px;
+}
+
+.value-title {
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.value__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.value__item {
+  width: 350px;
+  padding-top: 254px;
+  text-align: center;
+  background-image: url("../images/phone.png");
+  background-position: center top 55px;
+  background-repeat: no-repeat;
+}
+
+.value__item:nth-child(2) {
+  background-image: url("../images/motosicle.png");
+}
+
+.value__item:last-child {
+  background-image: url("../images/people.png");
+}
+
+.item-value__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 32px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  border-radius: 50%;
+  background-color: #fcb72b;
+  color: #495567;
+}
+
+.item-value__title {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.item-value__text {
   margin: 0;
 }
