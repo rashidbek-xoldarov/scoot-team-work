@@ -1,11 +1,30 @@
 /* VARIABLES */
 
 :root {
-  /* --main-text-color : #fff; */
-  /* --main-bg-color : #fff; */
-  /* --main-font-size : 16px; */
-  /* --main-font-weight : 400; */
-  /* --main-line-height : 1.5; */
+  --main-font-familiy: "Lexend Deca", "Arial", sans-serif;
+  --main-text-color: #939caa;
+  --main-bg-color: #fff;
+  --main-font-size: 15px;
+  --main-font-weight: 400;
+  --main-line-height: 25px;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.woff2") format("woff2"),
+    url("../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"),
+    url("../fonts/LexendDeca-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* GENERAL */
@@ -26,10 +45,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
-  /* font-size: 16px; */
-  /* font-weight: 400; */
-  /* line-height: var(--main-line-height); */
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+  line-height: var(--main-line-height);
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 
 /* VISUALLY-HIDDEN */
@@ -50,11 +71,33 @@ body {
 /* CONTAINER */
 
 .container {
-  /* max-width: YOUR CONTAINER MAX-WIDTH PX HERE; */
+  max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.get-scootin-btn {
+  display: inline-block;
+  padding: 14px 39px;
+  font-family: "Space Mono";
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #fcb72b;
+  text-decoration: none;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 14px 44px;
+  font-family: "Space Mono";
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #fcb72b;
+  text-decoration: none;
 }
 
 /* STICKY-FOOTER */
@@ -62,3 +105,7 @@ body {
 .site-main {
   flex-grow: 1;
 }
+
+/* FIRST PPAGE STYLE YASHNARBEK*/
+
+/* SECOND PAGE STYLE RASHIDBEK*/
