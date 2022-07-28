@@ -1,7 +1,7 @@
 /* VARIABLES */
 
 :root {
-  --main-font-familiy: "Lexend Deca", "Arial", sans-serif;
+  --main-font-family: "Lexend Deca", "Arial", sans-serif;
   --main-text-color: #939caa;
   --main-bg-color: #fff;
   --main-font-size: 15px;
@@ -51,6 +51,7 @@ body {
   line-height: var(--main-line-height);
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
+  overflow-x: hidden;
 }
 
 /* VISUALLY-HIDDEN */
@@ -130,4 +131,116 @@ body {
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #ffffff;
+}
+
+/* ABOUT FEATURE */
+.about-feature {
+}
+
+.about-feature__inner {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.about-feature__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-feature__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-feature__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.about-feature__item:first-child:after {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 64px);
+  display: inline-block;
+  width: 445px;
+  height: 445px;
+  content: "";
+  border-radius: 50%;
+  background-color: #e5ecf4;
+}
+
+.about-feature__item:last-child::before {
+  position: absolute;
+  top: 0;
+  right: calc(100% + 64px);
+  display: inline-block;
+  width: 445px;
+  height: 445px;
+  content: "";
+  border-radius: 50%;
+  background-color: #e5ecf4;
+}
+
+.about-feature__item:not(:last-child) {
+  margin-bottom: 120px;
+}
+
+.about-feature__img {
+  position: relative;
+  height: 445px;
+  height: 445px;
+  border-radius: 50%;
+}
+
+.img-feature-about--second {
+}
+
+.about-feature__info {
+  position: relative;
+  width: 445px;
+}
+
+.info-feature-about-first::after {
+  position: absolute;
+  top: 143px;
+  left: 575px;
+  z-index: 5;
+  display: inline-block;
+  width: 741px;
+  height: 151px;
+  content: "";
+  background-image: url("../images/arrow-img.svg");
+}
+
+.info-feature-about-second::before {
+  position: absolute;
+  top: -100px;
+  left: -1215px;
+  z-index: 5;
+  display: inline-block;
+  width: 741px;
+  height: 151px;
+  content: "";
+  background-image: url("../images/arrow-img.svg");
+  transform: rotateX(180deg) rotateY(180deg);
+}
+
+.about-feature__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.about-feature__text {
+  margin: 0;
 }
