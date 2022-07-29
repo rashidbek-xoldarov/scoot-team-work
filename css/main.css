@@ -591,10 +591,85 @@ body {
   margin: 0;
 }
 
-.learn-more-btn {
-}
-
 .employee__btn {
   padding-left: 65px;
   padding-right: 65px;
+}
+
+/* SIGN */
+.sign {
+  background-image: url("../images/sign-up-bg.jpg");
+  background-position: center;
+}
+
+.sign__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 102px;
+  padding-bottom: 102px;
+}
+
+.sign__title {
+  margin: 0;
+  width: 415px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
+}
+
+.sign__card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.sign__card {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: #e5ecf4;
+  border-radius: 4px;
+}
+
+.sign__card:not(:last-child) {
+  margin-right: 18px;
+}
+
+.sign__card::before {
+  display: inline-block;
+  margin-right: 12px;
+  width: 24px;
+  height: 28px;
+  content: "";
+  background-image: url("../images/iphone-img.svg");
+}
+
+.sign__card:last-child::before {
+  background-image: url("../images/playmarket.svg");
+}
+
+.info-card__text {
+  margin: 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+
+.info-card__title {
+  margin: 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
 }
