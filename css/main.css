@@ -673,3 +673,45 @@ body {
   letter-spacing: -0.892857px;
   color: #495567;
 }
+
+/* FOOTER */
+.site-footer {
+  background-color: #333a44;
+}
+
+.site-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.site-footer__first {
+  display: flex;
+  align-items: center;
+}
+
+.link-footer {
+  color: #939caa;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.social-link {
+  color: #fcb72b;
+}
+
+.social-link:hover {
+  color: #e5ecf4;
+}
