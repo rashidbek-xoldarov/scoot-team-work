@@ -122,6 +122,51 @@ body {
 }
 
 /* FIRST PPAGE STYLE YASHNARBEK*/
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.site-header__first {
+  display: flex;
+  align-items: center;
+}
+
+.sitenav {
+  margin-left: 60px;
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sitenav__item {
+  font-family: "Space Mono";
+  font-style: normal;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav__link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+}
+
+.sitenav__link:hover {
+  color: #fcb72b;
+  transition: 0.2s;
+}
 
 /* SECOND PAGE STYLE RASHIDBEK*/
 /* TOP */
