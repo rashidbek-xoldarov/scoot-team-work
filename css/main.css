@@ -899,6 +899,11 @@ body {
   align-items: center;
 }
 
+.sign__card-inner {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .sign__card {
   display: flex;
   align-items: center;
@@ -907,7 +912,7 @@ body {
   border-radius: 4px;
 }
 
-.sign__card:not(:last-child) {
+.sign__card-inner:not(:last-child) {
   margin-right: 18px;
 }
 
@@ -917,11 +922,11 @@ body {
   width: 24px;
   height: 28px;
   content: "";
-  background-image: url("../images/iphone-img.svg");
+  background-image: url("../images/playmarket.svg");
 }
 
-.sign__card:last-child::before {
-  background-image: url("../images/playmarket.svg");
+.car-apple::before {
+  background-image: url("../images/iphone-img.svg");
 }
 
 .info-card__text {
@@ -946,7 +951,6 @@ body {
   color: #495567;
 }
 
-
 /* location page  */
 .map-wrapper {
   margin-top: 50px;
@@ -954,10 +958,10 @@ body {
 .location-bottom {
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 .location-bottom__heading {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -968,7 +972,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #939CAA;  
+  color: #939caa;
 }
 .location-bottom__start {
   width: 350px;
