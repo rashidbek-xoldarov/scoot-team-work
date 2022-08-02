@@ -946,6 +946,39 @@ body {
   color: #495567;
 }
 
+
+/* location page  */
+.map-wrapper {
+  margin-top: 50px;
+}
+.location-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.location-bottom__heading {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.location-bottom__title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;  
+}
+.location-bottom__start {
+  width: 350px;
+}
+.location-bottom__middle {
+  width: 450px;
+}
+.get-scootin-btn {
+}
+
 /* FOOTER */
 .site-footer {
   background-color: #333a44;
